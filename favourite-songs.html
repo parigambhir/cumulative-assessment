@@ -20,6 +20,44 @@
         </u>
       </nav>
     </header>
-    <section></section>
+    <section>
+      <form>
+        <fieldset>
+          <legend>What's your favourtie song by Horror Vacui?</legend>
+          <br />
+          <label for="song-name">Song Name:</label>
+          <input type="text" id="song-name" name="song-name" />
+          <br />
+          <br />
+          <label for="album-from">Choose the album the song is from:</label>
+          <br />
+          <input type="radio" id="2012" name="album-from" />
+          <label for="2012">In Darkness You Will Feel Alright (2012)</label>
+          <br />
+          <input type="radio" id="2014" name="album-from" />
+          <label for="2014">Return Of The Empire</label>
+          <br />
+          <input type="radio" id="2018" name="album-from" />
+          <label for="2018">New Wave Of Fear</label>
+          <br />
+          <input type="radio" id="2020" name="album-from" />
+          <label for="2020">Living For Nothing</label>
+          <br />
+          <br />
+          <label for="song-url">Enter the songs url:</label>
+          <input type="url" id="song-url" name="song-url" />
+          <br />
+          <br />
+          <label for="star-rating">Rate the song out of 5 stars:</label>
+          <input
+            type="number"
+            id="star-rating"
+            name="star-rating"
+            min="1"
+            max="5"
+          />
+        </fieldset>
+      </form>
+    </section>
   </body>
 </html>
